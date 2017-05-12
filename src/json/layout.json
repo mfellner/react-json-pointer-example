@@ -1,0 +1,54 @@
+{
+  "type": "material-ui/styles/MuiThemeProvider.default",
+  "props": null,
+  "children": [
+    {
+      "type": "material-ui/Paper.default",
+      "props": {
+        "style": {
+          "maxWidth": "45%",
+          "padding": "10px"
+        }
+      },
+      "children": [
+        {
+          "type": "h1",
+          "props": {
+            "style": {
+              "fontFamily": "sans-serif"
+            }
+          },
+          "children": [
+            {
+              "$ref": "/components/0/title"
+            }
+          ]
+        },
+        {
+          "type": "img",
+          "props": {
+            "style": {
+              "maxWidth": "100%",
+              "height": "auto"
+            },
+            "src": {
+              "$ref": "/components/0/image"
+            }
+          },
+          "children": []
+        },
+        {
+          "type": "p",
+          "props": null,
+          "children": [
+            "Some static text. ",
+            {
+              "$ref": "/components/0/caption"
+            },
+            " More static text."
+          ]
+        }
+      ]
+    }
+  ]
+}

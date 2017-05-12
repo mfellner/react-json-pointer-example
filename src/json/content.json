@@ -1,0 +1,9 @@
+{
+  "components": [
+    {
+      "title": "Hello, world!",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Pepperoni_pizza.jpg",
+      "caption": "This text is from content.json."
+    }
+  ]
+}
